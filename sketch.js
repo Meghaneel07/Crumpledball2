@@ -51,9 +51,7 @@ function draw() {
   rectMode(CENTER);
   background(0);
   Engine.update(engine);
-  console.log(paper.body.position.x);
-    console.log(paper.body.position.y);
-    console.log(paper.body.angle);
+ 
 paper.display();
 ground.display();
 box1.display();
