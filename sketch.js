@@ -29,8 +29,7 @@ function setup() {
 	//Create the Bodies Here.
   
 
-  paper = Bodies.circle(width/2 , 200 , 5 , {abc, isStatic:true});
-	World.add(world, paper);
+  
   
   Engine.run(engine);
   
